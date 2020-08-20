@@ -1,0 +1,7 @@
+{
+  "name": "veriawater",
+  "type": "custom",
+  "integrations": {
+    "cordova": {}
+  }
+}

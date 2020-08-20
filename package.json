@@ -1,0 +1,19 @@
+{
+  "name": "veriawater",
+  "version": "1.0.0",
+  "description": "Veriawater App",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alshikh300/veriawater.git"
+  },
+  "author": "Ahmed Alshikh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alshikh300/veriawater/issues"
+  },
+  "homepage": "https://github.com/alshikh300/veriawater#readme"
+}
