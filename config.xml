@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.efaawater.app"
+    versionCode = "10"
+    version     = "1.0.1" >
+
+<!-- versionCode is optional and Android only -->
+
+  <name>Veriawater</name>
+
+  <description>
+    Veriawater
+  </description>
+
+  <author href="http://walmajdtrade.com" email="ms.dev.job@gmail.com">
+      Mohamed Saleh
+  </author>
+    <content src="index.html" />
+    <plugin name="cordova-plugin-whitelist"  />
+    <plugin name="cordova-plugin-network-information"  />
+    <plugin name="cordova-plugin-device"  />
+    <plugin name="cordova-plugin-geolocation"  />
+    <preference name="permissions" value="none" />
+    <preference name="AndroidPersistentFileLocation" value="Compatibility" />
+    <preference name="AndroidExtraFilesystems" value="files,cache, sdcard, cache-external, files-external" />
+    <preference name="phonegap-version" value="cli-9.0.0" />
+    
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <access origin="tel:*" launch-external="yes"/>
+    <access origin="geo:*" launch-external="yes"/>
+    <access origin="mailto:*" launch-external="yes"/>
+    <access origin="sms:*" launch-external="yes"/>
+    <access origin="market:*" launch-external="yes"/>
+
+    
+<platform name="android">
+    <icon density="ldpi" src="resources/icon/android/ldpi.png"/>
+    <icon density="mdpi" src="resources/icon/android/mdpi.png"/>
+    <icon density="hdpi" src="resources/icon/android/hdpi.png"/>
+    <icon density="xhdpi" src="resources/icon/android/xhdpi.png"/>
+    <icon density="xxhdpi" src="resources/icon/android/xxhdpi.png"/>
+    <icon density="xxxhdpi" src="resources/icon/android/xxxhdpi.png"/>
+    <!-- Portrait -->
+    <splash density="ldpi" src="resources/screen/android/splash-port-ldpi.png"/>
+    <splash density="mdpi" src="resources/screen/android/splash-port-mdpi.png"/>
+    <splash density="hdpi" src="resources/screen/android/splash-port-hdpi.png"/>
+    <splash density="xhdpi" src="resources/screen/android/splash-port-xhdpi.png"/>
+    <splash density="xxhdpi" src="resources/screen/android/splash-port-xxhdpi.png"/>
+    <splash density="xxxhdpi" src="resources/screen/android/splash-port-xxxhdpi.png"/>
+    <!-- Landscape --><!--
+        <splash density="land-ldpi" src="resources/screen/android/splash-land-ldpi.png"/>
+        <splash density="land-mdpi" src="resources/screen/android/splash-land-mdpi.png"/>
+        <splash density="land-hdpi" src="resources/screen/android/splash-land-hdpi.png"/>
+        <splash density="land-xhdpi" src="resources/screen/android/splash-land-xhdpi.png"/>
+        <splash density="land-xxhdpi" src="resources/screen/android/splash-land-xxhdpi.png"/>
+        <splash density="land-xxxhdpi" src="resources/screen/android/splash-land-xxxhdpi.png"/>
+        -->
+    
+</platform>
+
+<platform name="ios"><icon src="resources/icon/ios/icon-1024.png" width="1024" height="1024"/>
+<icon src="resources/icon/ios/icon-small.png" width="29" height="29"/>
+<icon src="resources/icon/ios/icon-small@2x.png" width="58" height="58"/>
+<icon src="resources/icon/ios/icon-small@3x.png" width="87" height="87"/>
+<icon src="resources/icon/ios/icon-small-40.png" width="40" height="40"/>
+<icon src="resources/icon/ios/icon-small-40@2x.png" width="80" height="80"/>
+<icon src="resources/icon/ios/icon-small-40@3x.png" width="120" height="120"/>
+<icon src="resources/icon/ios/icon-small-50.png" width="50" height="50"/>
+<icon src="resources/icon/ios/icon-small-50@2x.png" width="100" height="100"/>
+<icon src="resources/icon/ios/icon.png" width="57" height="57"/>
+<icon src="resources/icon/ios/icon@2x.png" width="114" height="114"/>
+<icon src="resources/icon/ios/icon-60.png" width="60" height="60"/>
+<icon src="resources/icon/ios/icon-60@2x.png" width="120" height="120"/>
+<icon src="resources/icon/ios/icon-60@3x.png" width="180" height="180"/>
+<icon src="resources/icon/ios/icon-72.png" width="72" height="72"/>
+<icon src="resources/icon/ios/icon-72@2x.png" width="144" height="144"/>
+<icon src="resources/icon/ios/icon-76.png" width="76" height="76"/>
+<icon src="resources/icon/ios/icon-76@2x.png" width="152" height="152"/>
+<icon src="resources/icon/ios/icon-167.png" width="167" height="167"/>
+<icon src="resources/icon/ios/icon-83.5@2x.png" width="167" height="167"/>
+<!-- Storyboard portrait -->
+<splash src="resources/screen/ios/Default@2x~iphone~anyany.png"/>
+<splash src="resources/screen/ios/Default@2x~iphone~comany.png"/>
+<splash src="resources/screen/ios/Default@3x~iphone~anyany.png"/>
+<splash src="resources/screen/ios/Default@3x~iphone~comany.png"/>
+<splash src="resources/screen/ios/Default@2x~ipad~anyany.png"/>
+<splash src="resources/screen/ios/Default@2x~ipad~comany.png"/>
+</platform>
+
+</widget>
